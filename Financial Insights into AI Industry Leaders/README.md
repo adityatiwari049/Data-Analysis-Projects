@@ -90,7 +90,7 @@ Clone the repository
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/ai-financial-analysis.git
+git clone https://github.com/adityatiwari049/ai-financial-analysis.git
 cd ai-financial-analysis
 Install dependencies
 
