@@ -1,119 +1,67 @@
-📊 AI Financial Market Analysis with Python
-Overview
-This project provides an in-depth analysis of AI-driven companies and their financial performance over time, focusing on R&D spending, AI revenue, and market impact. Using Python’s data science ecosystem, we explore patterns, trends, and correlations in the financial growth of companies like OpenAI, Google, and Meta.
+# 📊 AI Financial Market Analysis with Python
 
-The project is designed for analysts, researchers, and AI enthusiasts who want a clear, interactive, and visual understanding of the AI financial market.
+## Overview
+This project analyzes AI-driven companies and their financial performance over time, focusing on **R&D spending**, **AI revenue**, and **market impact**.  
+We use Python's data science tools to find patterns, trends, and insights into how companies like **OpenAI, Google, and Meta** are investing in AI.
 
-🔍 Key Features
-Data Cleaning & Preprocessing
+---
 
-Converted Date from object to datetime format.
+## 🔍 Features
+- **Data Cleaning & Processing**
+  - Converted dates to datetime format.
+  - Checked and handled missing values.
+  - Extracted year for analysis.
+- **Exploratory Data Analysis**
+  - Summarized R&D spending and AI revenue.
+  - Studied financial impact of major AI events (e.g., GPT-4 release).
+- **Visualizations**
+  - Bar charts for total R&D spending and AI revenue.
+  - Interactive Plotly charts for company comparison.
+  - Dual subplots for spending vs. revenue.
+- **Insights**
+  - Correlation between AI investments and revenue growth.
+  - Stock market impact of major AI developments.
 
-Checked and handled missing values.
+---
 
-Created new features such as Year.
+## 🛠 Tech Stack
+- **Python Libraries:**
+  - `pandas` – Data handling
+  - `numpy` – Numerical operations
+  - `matplotlib` & `seaborn` – Static visualizations
+  - `plotly.express` – Interactive visualizations
 
-Exploratory Data Analysis (EDA)
+---
 
-Summary of company-wise R&D spending and AI revenue.
+## 📂 Dataset
+- **File:** `ai_financial_market_daily_realistic_synthetic.csv`
+- **Shape:** 10,959 rows × 7 columns
+- **Columns:**
+  - `Date` – Record date
+  - `Company` – Company name
+  - `R&D_Spending_USD_Mn` – R&D spending in million USD
+  - `AI_Revenue_USD_Mn` – AI revenue in million USD
+  - `AI_Revenue_Growth_%` – Annual revenue growth (%)
+  - `Event` – Major AI-related event
+  - `Stock_Impact_%` – Stock price change (%)
 
-Identification of major events like GPT-4 release and their stock impact.
+---
 
-Visualizations
+## 📊 Example Insights
+- **R&D Spending (Total in $Bn)**
+  - Google: 423.34
+  - Meta: 264.53
+  - OpenAI: 26.48
+- **AI Revenue (Total in $Bn)**
+  - Google: 284.50
+  - Meta: 189.62
+  - OpenAI: 9.46
+- **Event Example:** GPT-4 release boosted OpenAI’s AI revenue growth by 304.57% with a 15.2% stock impact.
 
-Bar charts showing total R&D spending and AI revenue per company.
+---
 
-Interactive Plotly bar chart for revenue comparisons.
-
-Dual subplot to compare revenue and spending side-by-side.
-
-Market Insights
-
-Spending vs. revenue patterns reveal profitability trends.
-
-Event-based filtering to see financial response to major AI releases.
-
-🛠️ Tech Stack
-Python Libraries:
-
-pandas → Data handling & preprocessing
-
-numpy → Numerical operations
-
-matplotlib & seaborn → Static visualizations
-
-plotly.express → Interactive plots
-
-📂 Dataset
-Source: ai_financial_market_daily_realistic_synthetic.csv
-
-Shape: 10,959 rows × 7 columns
-
-Columns:
-
-Date – Transaction/record date
-
-Company – Company name (OpenAI, Google, Meta)
-
-R&D_Spending_USD_Mn – Research and development spending (in million USD)
-
-AI_Revenue_USD_Mn – AI revenue (in million USD)
-
-AI_Revenue_Growth_% – Yearly percentage revenue growth
-
-Event – Significant AI-related events (e.g., GPT-4 release)
-
-Stock_Impact_% – Stock market impact in %
-
-📊 Example Insights
-R&D Spending (Total in $Bn)
-
-Google: 423.34
-
-Meta: 264.53
-
-OpenAI: 26.48
-
-AI Revenue (Total in $Bn)
-
-Google: 284.50
-
-Meta: 189.62
-
-OpenAI: 9.46
-
-Event Spotlight: GPT-4 release (March 14, 2023) saw 304.57% AI revenue growth for OpenAI and 15.2% stock impact.
-
-🚀 How to Run
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/adityatiwari049/ai-financial-analysis.git
-cd ai-financial-analysis
-Install dependencies
-
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib seaborn plotly
-Place the dataset ai_financial_market_daily_realistic_synthetic.csv in the project directory.
-
-Run the notebook
-
-bash
-Copy
-Edit
-jupyter notebook
-Open the provided .ipynb file and execute the cells.
-
-📌 Future Improvements
-Add time-series forecasting for AI revenue growth.
-
-Include profitability ratios and ROI metrics.
-
-Implement real-time data updates from financial APIs.
-
-📜 License
-This project is licensed under the MIT License.
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ai-financial-analysis.git
+   cd ai-financial-analysis
