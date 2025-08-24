@@ -1,14 +1,14 @@
-# 📊 Project 1: Impact of U.S. Tariffs on the Global Economy
+# 📊 Impact of U.S. Tariffs on the Global Economy
 
 ## 🔍 Overview
-This project analyzes how the recent tariffs imposed by the United States have impacted global trade, particularly focusing on:
+This project analyzes how the recent tariffs imposed by the United States have impacted global trade, focusing on:
 
 - GDP changes
 - Export losses
 - Country-wise dependency on U.S. markets
 - Key sectors affected
 
-This analysis uses real-world economic data to visualize and quantify the implications of trade restrictions globally.
+**Note:** I created and cleaned the dataset entirely by myself and built this Power BI dashboard independently, without using any tutorials.
 
 ---
 
@@ -43,17 +43,33 @@ This analysis uses real-world economic data to visualize and quantify the implic
 
 ## 📈 Visualizations
 
-- 📌 Bar plots and pie charts showing affected sectors
-- 🌍 Choropleth maps showing tariff imposition globally
-- ☁️ Word cloud highlighting most impacted industries
-- 📉 Export loss vs GDP correlation
+- Bar plots and pie charts showing affected sectors
+- Choropleth maps showing tariff imposition globally
+- Word cloud highlighting most impacted industries
+- Export loss vs GDP correlation
+
+---
+
+## 🖼 Dashboard Screenshot
+
+![Dashboard Screenshot](Impact_of_US_Tariffs/dashbord_tarrif.png)  
+*Interactive Power BI Dashboard: Impact of U.S. Tariffs on Global Trade (2024)*
+
+---
+
+## 💾 Download
+
+[Download the Power BI Dashboard (.pbix)](Impact_of_US_Tariffs/US-Tariffs-Dashboard.pbix)
+
+> **Note:** Click the link above to download the file and open it in Power BI Desktop.
 
 ---
 
 ## 🔧 Tools Used
 
-- Python (Pandas, NumPy, Matplotlib, Plotly, WordCloud)
-- Jupyter Lab
+- Python (Pandas, NumPy, Matplotlib, Plotly, WordCloud)  
+- Jupyter Lab  
+- Power BI Desktop  
 - GitHub for version control and collaboration
 
 ---
@@ -72,8 +88,6 @@ To develop data analysis skills using real-world global economic indicators and 
 
 ---
 
-## 📎 License
+## 📜 License
 
 This project is open-source under the MIT License. Feel free to use, modify, or share.
-
-
