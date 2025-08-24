@@ -8,7 +8,9 @@ This project analyzes how the recent tariffs imposed by the United States have i
 - Country-wise dependency on U.S. markets
 - Key sectors affected
 
-This analysis uses real-world economic data to visualize and quantify the implications of trade restrictions globally.
+This analysis uses real-world economic data to visualize and quantify the implications of trade restrictions globally.  
+
+**Note:** I created and cleaned the dataset entirely by myself and built this Power BI dashboard independently without following any tutorial.
 
 ---
 
@@ -50,10 +52,24 @@ This analysis uses real-world economic data to visualize and quantify the implic
 
 ---
 
+## 🖼 Dashboard Screenshot
+
+![Dashboard Screenshot](Impact of US Tariffs on Global Trade/dashbord tarrif.png)  
+*Interactive Power BI Dashboard: Impact of U.S. Tariffs on Global Trade (2024)*
+
+---
+
+## 💾 Download
+
+- [Download the Power BI Dashboard (.pbix)](Impact of US Tariffs on Global Trade/US-Tariffs-Dashboard.pbix)
+
+---
+
 ## 🔧 Tools Used
 
 - Python (Pandas, NumPy, Matplotlib, Plotly, WordCloud)
 - Jupyter Lab
+- Power BI Desktop
 - GitHub for version control and collaboration
 
 ---
@@ -72,8 +88,6 @@ To develop data analysis skills using real-world global economic indicators and 
 
 ---
 
-## 📎 License
+## 📜 License
 
 This project is open-source under the MIT License. Feel free to use, modify, or share.
-
-
