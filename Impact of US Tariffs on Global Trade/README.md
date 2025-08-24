@@ -52,8 +52,11 @@ This project analyzes how the recent tariffs imposed by the United States have i
 
 ## 🖼 Dashboard Screenshot
 
-![Dashboard Screenshot](Impact_of_US_Tariffs/dashbord_tarrif.png)  
+
+
+![Dashboard Screenshot](Impact of US Tariffs on Global Trade/dashbord tarrif.png)
 *Interactive Power BI Dashboard: Impact of U.S. Tariffs on Global Trade (2024)*
+
 
 ---
 
