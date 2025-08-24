@@ -65,6 +65,19 @@ This project analyzes how the recent tariffs imposed by the United States have i
 
 ---
 
+## 🖼 Dashboard Screenshot
+
+![Dashboard Screenshot](Impact of US Tariffs on Global Trade/dashbord tarrif.png)  
+*Interactive Power BI Dashboard: Impact of U.S. Tariffs on Global Trade (2024)*
+
+---
+
+## 💾 Download
+
+- [Download the Power BI Dashboard (.pbix)](Impact of US Tariffs on Global Trade/US-Tariffs-Dashboard.pbix)
+
+---
+
 ## 🔧 Tools Used
 
 - Python (Pandas, NumPy, Matplotlib, Plotly, WordCloud)  
