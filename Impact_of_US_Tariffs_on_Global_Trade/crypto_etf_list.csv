@@ -1,0 +1,22 @@
+ticker,name,issuer,coin,type,country,approved_date,launch_date,exchange,aum_usd_billions,expense_ratio_pct
+IBIT,iShares Bitcoin Trust,BlackRock,BTC,spot,US,2024-01-10,2024-01-11,NASDAQ,20.0,0.25
+FBTC,Fidelity Wise Origin Bitcoin Fund,Fidelity,BTC,spot,US,2024-01-10,2024-01-11,CBOE,10.0,0.25
+BITB,Bitwise Bitcoin ETF,Bitwise,BTC,spot,US,2024-01-10,2024-01-11,NYSE,2.5,0.2
+ARKB,ARK 21Shares Bitcoin ETF,ARK Invest / 21Shares,BTC,spot,US,2024-01-10,2024-01-11,CBOE,3.0,0.21
+BTCO,Invesco Galaxy Bitcoin ETF,Invesco,BTC,spot,US,2024-01-10,2024-01-11,CBOE,0.5,0.25
+HODL,VanEck Bitcoin Trust,VanEck,BTC,spot,US,2024-01-10,2024-01-11,CBOE,0.7,0.2
+BTCW,WisdomTree Bitcoin Fund,WisdomTree,BTC,spot,US,2024-01-10,2024-01-11,CBOE,0.1,0.25
+GBTC,Grayscale Bitcoin Trust,Grayscale,BTC,spot,US,2024-01-10,2024-01-11,NYSE,25.0,1.5
+BTC,Grayscale Bitcoin Mini Trust,Grayscale,BTC,spot,US,2024-07-31,2024-07-31,NYSE,3.5,0.15
+BITO,ProShares Bitcoin Strategy ETF,ProShares,BTC,futures,US,2021-10-18,2021-10-19,NYSE,1.5,0.95
+BTF,Valkyrie Bitcoin Strategy ETF,Valkyrie,BTC,futures,US,2021-10-22,2021-10-22,NASDAQ,0.05,0.95
+XBTF,VanEck Bitcoin Strategy ETF,VanEck,BTC,futures,US,2021-11-15,2021-11-16,CBOE,0.07,0.76
+ETHA,iShares Ethereum Trust,BlackRock,ETH,spot,US,2024-05-23,2024-07-23,NASDAQ,1.0,0.25
+FETH,Fidelity Ethereum Fund,Fidelity,ETH,spot,US,2024-05-23,2024-07-23,CBOE,0.5,0.25
+ETHW,Bitwise Ethereum ETF,Bitwise,ETH,spot,US,2024-05-23,2024-07-23,NYSE,0.2,0.2
+CETH,21Shares Core Ethereum ETF,21Shares,ETH,spot,US,2024-05-23,2024-07-23,CBOE,0.05,0.21
+ETHV,VanEck Ethereum ETF,VanEck,ETH,spot,US,2024-05-23,2024-07-23,CBOE,0.1,0.2
+ETHE,Grayscale Ethereum Trust,Grayscale,ETH,spot,US,2024-05-23,2024-07-23,NYSE,5.0,2.5
+BTCE,ETC Group Physical Bitcoin,ETC Group,BTC,spot,EU,2020-06-18,2020-06-18,XETRA,0.8,2.0
+BTCQ,3iQ Bitcoin ETF,3iQ,BTC,spot,Canada,2021-04-09,2021-04-09,TSX,0.3,1.0
+EBIT,Purpose Bitcoin ETF,Purpose Investments,BTC,spot,Canada,2021-02-11,2021-02-18,TSX,1.5,1.0
